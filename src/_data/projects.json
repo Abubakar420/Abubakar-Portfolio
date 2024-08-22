@@ -91,5 +91,18 @@
     "deployed": "https://abubakarrehman.netlify.app/contact",
     "bgcolor": "#3e67ff",
     "id": "7"
+  },
+  {
+    "title": "Mna Real Esate",
+    "description": "Create Custom Poster",
+    "image": "/projectImages/planner.png",
+    "image2": "/projectImages/MNA.png",
+    "image3": "/projectImages/planner3.png",
+    "technologies": ["React", "Node", "Mui", "Tailwind", "Bootstrap"],
+    "body": "MNA International Group is a premier real estate platform designed to connect buyers, sellers, and investors with a diverse range of properties across international markets. Our mission is to provide a seamless and efficient real estate experience by offering detailed property listings, expert market insights, and personalized services. Whether you're looking to buy your dream home, sell a property, or invest in real estate, MNA International Group is your trusted partner in navigating the complexities of the global property market.",
+    "github": "https://github.com/falconitconsultant/",
+    "deployed": "https://www.mnainternationalgroup.com/",
+    "bgcolor": "#795D52",
+    "id": "7"
   }
 ]
