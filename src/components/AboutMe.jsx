@@ -62,7 +62,7 @@ const AboutMe = ({ name }) => {
                 Nice to meet you! 👋🏻
               </motion.h4>
               <motion.h5 variants={paragraphVariants}>
-                I'm a Full Stack Software Developer
+                I’m a Front-End Developer
                 <span style={{ color: "var(--hl-color)" }}>.</span>
               </motion.h5>
 
@@ -75,30 +75,38 @@ const AboutMe = ({ name }) => {
               >
                 {/* Paragraphs with animation */}
                 <motion.p variants={paragraphVariants}>
-                  I have a strong commitment to craft exceptional user
-                  experiences. Armed with a Bachelor's degree in{" "}
-                  <span style={{ color: "var(--hl-color)" }}>
+                I’m a Front-End Developer with a strong passion for crafting beautiful, intuitive, and high-performance user interfaces that deliver exceptional user experiences. With a Bachelor’s degree in   <span style={{ color: "var(--hl-color)" }}>
                     {" "}
                     Computer Science{" "}
-                  </span>
-                  , I've honed my proficiency in a wide array of technologies
-                  including JavaScript, TypeScript, React, Node, Python, MongoDB
-                  and more.
+                  </span> I specialize in transforming complex ideas into 
+
+<span style={{ color: "var(--hl-color)", marginLeft: "1px" }}>                      elegant, accessible,
+                   </span>
+
+ and
+ <span style={{ color: "var(--hl-color)" }}> responsive web applications.
+                   </span>
                 </motion.p>
                 <br />
                 <motion.p variants={paragraphVariants}>
-                  On a mission to transform complex concepts into intuitive and
-                  captivating digital experiences. My passion lies in shaping
-                  the future of web development, and I eagerly seek new
-                  opportunities & collaborations to make a profound impact in
-                  the
-                  <span style={{ color: "var(--hl-color)" }}>
-                    {" "}
-                    digital landscape.{" "}
+                 My expertise lies in modern front-end technologies such as 
+<span style={{ color: "var(--hl-color)", marginLeft: "2px" }}>  
+                 JavaScript, TypeScript, React, HTML5, CSS3,
                   </span>
+
+                  and modern UI frameworks, along with a deep understanding of component-driven architecture, state management, and performance optimization. I care deeply about 
+<span style={{ color: "var(--hl-color)", marginLeft: "2px",marginRight: "2px" }}>
+                  
+                  clean code, scalability, accessibility, and pixel-perfect design, 
+                                    </span>
+
+                  ensuring every interface feels seamless across devices and browsers.
                 </motion.p>
                 <br />
                 <motion.p variants={paragraphVariants}>
+                 Driven by a user-first mindset, I collaborate closely with designers and backend teams to build engaging digital experiences that are not only visually compelling but also fast, reliable, and maintainable. I continuously explore emerging trends and tools in the front-end ecosystem to stay ahead and deliver future-ready solutions.
+                </motion.p>
+                <motion.p variants={paragraphVariants} style={{marginTop:'5px'}}>
                   When code isn't my focus, I'm conquering cycling routes,
                   feeling the wind on spirited runs, and fueling my love for
                   animal

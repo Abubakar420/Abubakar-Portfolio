@@ -68,7 +68,7 @@ const Hero = ({ name }) => {
             onInit={(typewriter) => {
               typewriter
                 .changeDelay(120)
-                .typeString("Software Engineer")
+                .typeString("Front-End Developer")
                 .start();
             }}
           />
