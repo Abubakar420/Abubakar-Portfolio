@@ -75,7 +75,7 @@ const AboutMe = ({ name }) => {
               >
                 {/* Paragraphs with animation */}
                 <motion.p variants={paragraphVariants}>
-                I’m a Front-End Developer with a strong passion for crafting beautiful, intuitive, and high-performance user interfaces that deliver exceptional user experiences. With a Bachelor’s degree in   <span style={{ color: "var(--hl-color)" }}>
+                With a strong passion for crafting beautiful, intuitive, and high-performance user interfaces that deliver exceptional user experiences. With a Bachelor’s degree in   <span style={{ color: "var(--hl-color)" }}>
                     {" "}
                     Computer Science{" "}
                   </span> I specialize in transforming complex ideas into 
@@ -109,11 +109,14 @@ const AboutMe = ({ name }) => {
                 <motion.p variants={paragraphVariants} style={{marginTop:'5px'}}>
                   When code isn't my focus, I'm conquering cycling routes,
                   feeling the wind on spirited runs, and fueling my love for
-                  animal
+                  animal.
                 </motion.p>
+                <motion.p>
+                 My expertise lies in modern front-end techologies such as JavaScripts, TypeScripts, React, HTML5, CSS3 and modern UI frame 
+                </motion.p>
+                {/*  */}
               </motion.div>
 
-              {/* Button to view the portfolio */}
               <NavLink to="/portfolio">
                 <Button name="View Portfolio" />
               </NavLink>
